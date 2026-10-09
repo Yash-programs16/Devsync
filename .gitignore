@@ -1,0 +1,33 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and credentials
+*.pem
+*.key
+secrets/
+credentials.json
+
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+coverage.out
+bin/
+dist/
+
+# Logs
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
